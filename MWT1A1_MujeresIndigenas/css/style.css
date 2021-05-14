@@ -1,48 +1,124 @@
 *{
     box-sizing: border-box;
-    padding: 10;
-    margin: 10;
+    padding: 0;
+    margin: 0;
 }
 
 nav
 {
     background-color: palevioletred;
-    height: 50px;
+    height: 60px;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    padding-left: 30px;
 
 }
 
 body
 {
-    background-color: pink;
+    background-color: #f7cfcd;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color:white;
 }
 
-button
+.Boton
 {
-    background-color: palevioletred;
     color:white;
+    font-size: 25px;
     text-align: center;
-    width: 100px;
-    
-    
+    width: 200px;
+    height: 50px;
+    border-style: solid;
+    border: 20px gr;
+    border-radius: 8%;  
+}
+
+#BtnMenu
+{
+    background-color: palevioletred;  
+}
+#BtnSaberMas
+{
+    background-color: blue;
+    display:block;
+    margin-left: auto;
+    margin-right: auto; 
 }
 
 p
 {
-    color:white;
-    font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 28px;
 }
 
-footer
+h2
+{
+    margin-left: 25px;
+}
+
+img
+{
+    margin-top: 30px;
+    
+    
+}
+
+a
 {
     text-align: center;
 }
 
-.Contenedor
+.Centrado
 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-self: flex-start;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+  .Contenedor
+{
+    position: relative;
+    justify-content: space-around;
+    width: 500px;
+    height: 550px;
+    margin: 20px;
+    float: left;
+    border: 10px;
+    border-radius: 5%;
+    
+}
+
+#Artesanas
+{
+    background-color: #d80072;
+    border: 10px white;
+}
+
+#Activistas
+{
+    background-color: #61ab17;
+    border: 10px;
+}
+
+#Diversidad
+{
+    background-color: #a20124;
+    border: 10px;
+}
+
+#Sabermas
+{
+    background-color: blue;
+    color:white;
+    font-size: 25px;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    border-style: solid;
+    border: 10px gr;
+    border-radius: 5%;   
+    
 }
 
